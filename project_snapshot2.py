@@ -62,6 +62,7 @@ ALWAYS_EXCLUDE_DIRS = {
 EXCLUSION_PATTERNS = [
     ".claude",
     "project_architecture_*.json",  # Exclude generated architecture files
+    "project_snapshot2.py",  # Exclude this script itself
 ]
 
 # Regex pattern to extract SUMMARY comments from files
