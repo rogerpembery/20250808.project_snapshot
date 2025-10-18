@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SUMMARY: Exports complete project structure as JSON including full text file contents in appendices with metadata (SHA-256, encoding, language). Intelligently filters binary files and junk directories while providing detailed file listings for GPT coding agents.
 """
 JSON exporter for project structure + appendices (for GPT coding agents)
 

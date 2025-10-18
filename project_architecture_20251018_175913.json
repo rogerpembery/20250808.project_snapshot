@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "generated": "2025-10-18 17:59:13",
+    "root": "/Volumes/BaseHDD/python/20250808.project_snapshot",
+    "excluded_directories": [
+      ".cache",
+      ".eggs",
+      ".git",
+      ".idea",
+      ".mypy_cache",
+      ".pytest_cache",
+      ".ruff_cache",
+      ".tox",
+      ".vscode",
+      "__pycache__",
+      "node_modules",
+      "venv"
+    ],
+    "exclusion_patterns": [
+      ".claude",
+      "project_architecture_*.json"
+    ],
+    "coding_relevant_extensions": [
+      ".adoc",
+      ".bash",
+      ".bat",
+      ".c",
+      ".cfg",
+      ".cmake",
+      ".cmd",
+      ".conf",
+      ".cpp",
+      ".cs",
+      ".css",
+      ".dockerfile",
+      ".dockerignore",
+      ".env",
+      ".gitignore",
+      ".go",
+      ".gradle",
+      ".h",
+      ".hpp",
+      ".htm",
+      ".html",
+      ".ini",
+      ".java",
+      ".js",
+      ".json",
+      ".jsx",
+      ".kt",
+      ".less",
+      ".m",
+      ".md",
+      ".php",
+      ".ps1",
+      ".py",
+      ".r",
+      ".rb",
+      ".rs",
+      ".rst",
+      ".sass",
+      ".scala",
+      ".scss",
+      ".sh",
+      ".sql",
+      ".swift",
+      ".toml",
+      ".ts",
+      ".tsx",
+      ".txt",
+      ".vue",
+      ".xml",
+      ".yaml",
+      ".yml",
+      ".zsh"
+    ],
+    "summary": {
+      "folders_with_coding_files": 1,
+      "coding_files": 5,
+      "venv_packages": 0
+    }
+  },
+  "venv_packages": [],
+  "structure": {
+    "name": "20250808.project_snapshot",
+    "path": ".",
+    "files": [
+      {
+        "name": ".env",
+        "path": ".env",
+        "summary": "SUMMARY comment not found",
+        "has_summary": false
+      },
+      {
+        "name": ".gitignore",
+        "path": ".gitignore",
+        "summary": "SUMMARY comment not found",
+        "has_summary": false
+      },
+      {
+        "name": "project_snapshot.py",
+        "path": "project_snapshot.py",
+        "summary": "Exports complete project structure as JSON including full text file contents in appendices with metadata (SHA-256, encoding, language). Intelligently filters binary files and junk directories while providing detailed file listings for GPT coding agents.",
+        "has_summary": true
+      },
+      {
+        "name": "project_snapshot2.py",
+        "path": "project_snapshot2.py",
+        "summary": "Generates hierarchical project architecture documentation by recursively scanning for coding-relevant files and extracting their SUMMARY comments. Creates timestamped JSON output with nested folder structure, file summaries, and virtual environment package listings.",
+        "has_summary": true
+      },
+      {
+        "name": "test_project_snapshot.py",
+        "path": "test_project_snapshot.py",
+        "summary": "SUMMARY comment not found",
+        "has_summary": false
+      }
+    ],
+    "subdirectories": []
+  }
+}
